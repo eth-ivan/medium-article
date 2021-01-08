@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,400&family=Montserrat:wght@300;400;500;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  padding: 30px;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+
+.card > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #A0A0A0;
+}
+
+.card > p {
+  font-family: 'Lora', serif;
+  font-size: 1.8rem;
+  color: #494949;
+}
+
+.card > a {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+.card > a:hover {
+  background-image: linear-gradient(to bottom, #5fad62, #5fad62);
+  color: white;
+}
+
+.container {
+  width: 80%;   /* This sets the width */
+  max-width: 800px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1543699565-003b8adda5fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  padding: 120px;
+  background-size: cover;
+  background-position: left;
+  color: white;
+  font-weight: 700;
+}
+
+.banner > h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.banner > p {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3rem;
+}
